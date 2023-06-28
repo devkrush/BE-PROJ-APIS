@@ -7,7 +7,7 @@ app.post('/fraud-detection', (req, res) => {
   const jobRoles = {
     "JavaScript Developer": {
       Accuracy: 0.89456,
-      Fraud: false
+      Fraud: true
     },
     "IOS Developer": {
       Accuracy: 0.91451,
